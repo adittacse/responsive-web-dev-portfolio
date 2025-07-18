@@ -301,3 +301,18 @@ main .box-width {
         width: calc(100% - 60px);
     }
 }
+
+/* tablet specific media query */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .btn-primary {
+        padding: 0 20px;
+    }
+
+    .banner, .about-info-container {
+        flex-direction: column;
+    }
+
+    .about-info {
+        margin-top: 20px;
+    }
+}
